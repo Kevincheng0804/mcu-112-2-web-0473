@@ -3,7 +3,6 @@ header {
 }
 .card {
   border: solid 1.5px #999;
-
   border-radius: 8px;
   width: 250px;
 }
