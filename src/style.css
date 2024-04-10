@@ -11,6 +11,7 @@ section.body {
 }
 nav {
   margin-bottom: 1-px;
+  margin: 8px 0px;
 }
 .card {
   border: solid 1.5px #999;
@@ -24,18 +25,35 @@ input[type="text"] {
 table {
   border-collapse: collapse;
   width: 100%;
+  margin: 10px 0; /*元素之間間隔*/
 }
+
 th,
 td {
   height: 30px;
 }
+tr > td {
+  padding: 8px;
+}
+tr > td.id {
+  text-align: center;
+  width: 120px;
+}
 td.id {
   text-align: center;
   width: 120px;
+  margin: 10px 0;
 }
 td.company {
   text-align: center;
   width: 150px;
+}
+td.price {
+  text-align: right;
+}
+
+footer {
+  margin: 20px 0;
 }
 :-webkit-input-placeholder {
   /*Webkit browsers*/
