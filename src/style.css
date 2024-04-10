@@ -10,3 +10,22 @@ input[type="text"] {
   width: 200px;
   height: 25px;
 }
+:-webkit-input-placeholder {
+  /*Webkit browsers*/
+
+  color: #999;
+}
+
+:-moz-placeholder {
+  /*Mozilla Firefox*/
+
+  color: #999;
+
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  /*Internet Explorer 10+*/
+
+  color: #999;
+}
