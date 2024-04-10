@@ -4,6 +4,7 @@ body {
 }
 header {
   text-align: center;
+  color: rgba(0, 0, 0, 0.8);
 }
 section.body {
   margin: 0 auto;
@@ -27,7 +28,10 @@ table {
   width: 100%;
   margin: 10px 0; /*元素之間間隔*/
 }
-
+table th {
+  background-color: #7777;
+  color: white;
+}
 th,
 td {
   height: 30px;
