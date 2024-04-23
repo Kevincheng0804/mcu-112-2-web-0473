@@ -14,7 +14,7 @@ nav {
   margin-bottom: 1-px;
   margin: 8px 0px;
 }
-.div {
+div {
   display: inline-block;
 
   color: #999;
@@ -89,21 +89,4 @@ footer {
 }
 .hover:hover {
   background-color: yellow;
-}
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: stretch;
-  flex-wrap: nowrap;
-  align-content: stretch;
-  column-gap: 10px;
-  flex-basis: 10;
-  order: 10;
-}
-.flex-center {
-  margin: 10px 10px 10px 10px;
-}
-.inside {
-  color: black;
 }
