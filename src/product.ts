@@ -16,4 +16,7 @@ export class Product {
     this.createDate = createDate;
     this.modifyDate = modifyDate;
   }
+  setDisplay(isShow: boolean) {
+    this.isShow = isShow;
+  }
 }
