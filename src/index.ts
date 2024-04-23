@@ -7,5 +7,6 @@ console.log("Product Name=", ProductName);
 let isShow = true;
 console.log("Is Show =", isShow);
 
-let createDate = undefined;
+let createDate = new Date();
 console.log("Create Date", createDate);
+//npx ts-node ./src/index.ts
